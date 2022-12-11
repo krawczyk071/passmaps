@@ -7,8 +7,8 @@ import numpy as np
 from pitch import Pitch
 import warnings
 
-from pandas.core.common import SettingWithCopyWarning
-warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)
+# from pandas.core.common import SettingWithCopyWarning
+# warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)
 
 match_id = "8658"
 side="away"
